@@ -36,4 +36,11 @@ for (const file of htmlFiles(ROOT)) {
     }
     assert.deepEqual(missing, []);
   });
+
+  test(`${rel}: has a descriptive title`, () => {
+    const html = stripComments(fs.readFileSync(file, 'utf8'));
+    const title = (html.match(/<title>([^<]*)<\/title>/i) || [])[1];
+    assert.ok(title && title.trim(), 'missing <title>');
+    assert.notEqual(title.trim(), 'Document');
+  });
 }
