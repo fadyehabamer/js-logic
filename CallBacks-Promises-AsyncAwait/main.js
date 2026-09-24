@@ -22,9 +22,10 @@ let getUsers = (callbackData) => {
             // * Single reponsability principal (function for one purpose)
             callbackData(data)
         })
-        .catch()
-        // * if fail
-        .catch()
+        // * if fail (an empty .catch() does nothing, the error must be handled here)
+        .catch(error => {
+            console.log(error)
+        })
 }
 getUsers(
     function (data) {
