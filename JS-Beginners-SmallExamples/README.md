@@ -24,6 +24,8 @@ JS small examples from el zero web school.
 "Console" exercises print to the browser DevTools console. Regression tests for the
 fixed exercises live in [`../tests`](../tests) — run `npm test` from the repo root.
 
+`largestOfFour` returns `null` for an empty sub-array, since it has no largest number.
+
 ## 🛠 Built With
 
 **Languages:** HTML · CSS · JavaScript
