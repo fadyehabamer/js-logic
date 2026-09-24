@@ -1,0 +1,11 @@
+{
+  "name": "js-logic",
+  "private": true,
+  "description": "Vanilla-JS logic & references — DOM/BOM, OOP, algorithms",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
