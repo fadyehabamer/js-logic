@@ -12,6 +12,14 @@
 | [`JS-Beginners-SmallExamples`](./JS-Beginners-SmallExamples/) | JS small examples from el zero web school | [🔗 Live](https://fadyehabamer.github.io/js-logic/JS-Beginners-SmallExamples/) |
 | [`Random-Background-Color`](./Random-Background-Color/) | Background colour changes after a specific time | [🔗 Live](https://fadyehabamer.github.io/js-logic/Random-Background-Color/) |
 
+## Tests
+
+Regression tests for the logic exercises use Node's built-in test runner (no dependencies, Node 18+):
+
+```bash
+npm test   # same as: node --test
+```
+
 ---
 
 Each folder is a standalone demo. Click **🔗 Live** to view it running, or open the folder for source. Previously separate repositories, merged here to keep the profile clean while preserving every file.
