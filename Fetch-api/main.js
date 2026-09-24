@@ -9,7 +9,7 @@ function fetchdata() {
           return `
           <div class= "data">
           <p> this is ${getusers.first_name} <br></p>
-          <p> this is his her avatar<br> <img src="${getusers.avatar}"></p>
+          <p> this is his her avatar<br> <img src="${getusers.avatar}" alt="${getusers.first_name} ${getusers.last_name}"></p>
           <p> and this is his / her email <br> ${getusers.email}  </p>
           </div> `;
         })
