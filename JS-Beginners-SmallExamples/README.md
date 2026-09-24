@@ -8,6 +8,22 @@
 
 JS small examples from el zero web school.
 
+## 🧩 Exercises
+
+| # | Exercise | Topic | Difficulty | Output |
+|---|----------|-------|------------|--------|
+| 01 | [Characters left in a textarea](./JS%20Examples/01%20calculating%20charachters%20left%20in%20text%20area/) | DOM events | Easy | Page |
+| 02 | [Capitalize every word](./JS%20Examples/02%20Captalize%20String/) | Strings | Easy | Console |
+| 03 | [Check the URL hash](./JS%20Examples/03%20check%20if%20URL%20has%20%23%20or%20not/) | BOM / location | Easy | Console |
+| 04 | [Clear input placeholder on focus](./JS%20Examples/04%20clear%20input%20placeholder/) | DOM events | Easy | Page |
+| 05 | [Countdown timer](./JS%20Examples/05%20%20count%20down/) | Timers / DOM | Easy | Page |
+| 06 | [Chunky monkey (split array into groups)](./JS%20Examples/06%20chuncky%20monkey/) | Arrays | Easy | Console |
+| 07 | [Reverse a string](./JS%20Examples/07%20reverse%20string/) | Strings / loops | Easy | Console |
+| 08 | [Largest number in each sub-array](./JS%20Examples/08%20finding%20largest%20number%20in%20arrays/) | Arrays / loops | Easy | Console |
+
+"Console" exercises print to the browser DevTools console. Regression tests for the
+fixed exercises live in [`../tests`](../tests) — run `npm test` from the repo root.
+
 ## 🛠 Built With
 
 **Languages:** HTML · CSS · JavaScript
