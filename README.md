@@ -1,5 +1,7 @@
 # js-logic
 
+[![CI](https://github.com/fadyehabamer/js-logic/actions/workflows/ci.yml/badge.svg)](https://github.com/fadyehabamer/js-logic/actions/workflows/ci.yml)
+
 > Vanilla-JS logic & references — DOM/BOM, OOP, algorithms
 
 **5 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/js-logic/)** — every demo is deployed to GitHub Pages.
